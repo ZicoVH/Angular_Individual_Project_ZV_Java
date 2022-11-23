@@ -16,7 +16,7 @@ public interface MovieRepository extends JpaRepository<Movie, Long> {
 //     List<Movie> findMovieByRating(Integer t);
 //     List<Movie> findByRating(int t);
 
-     List<Movie> findMovieByCommentContaining(String s);
+//     List<Movie> findMovieByCommentContaining(String s);
 
      // this one gives an error
 //     List<Movie> findAllByRating(int id);

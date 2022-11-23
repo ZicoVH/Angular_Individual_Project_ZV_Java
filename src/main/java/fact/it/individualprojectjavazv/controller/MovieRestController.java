@@ -57,15 +57,15 @@ public class MovieRestController {
 //        }
 //        return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 //    }
-@GetMapping("/movies/specificComment/{comment}")
-public List<Movie> getSpecificCommentMovie(@PathVariable String comment){
-    List<Movie> movies = movieRepository.findMovieByCommentContaining(comment);
-    return new ArrayList<Movie>(movies);
-}
+//@GetMapping("/movies/specificComment/{comment}")
+//public List<Movie> getSpecificCommentMovie(@PathVariable String comment){
+//    List<Movie> movies = movieRepository.findMovieByCommentContaining(comment);
+//    return new ArrayList<Movie>(movies);
+//}
 
 //@GetMapping("/movies/specificRating/{rate}")
 //public List<Movie> getSpecificRatingMovie(@PathVariable Integer rate) {
-//    List<Movie> movies = movieRepository.findByRating(rate);
+//    List<Movie> movies = movieRepository.findMovieByRating(rate);
 //    return new ArrayList<Movie>(movies);
 //}
 

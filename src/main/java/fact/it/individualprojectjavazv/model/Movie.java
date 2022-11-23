@@ -15,7 +15,7 @@ public class Movie {
     private int movieId;
     private boolean watchedorNot;
     private String comment;
-    private int Rating;
+    private int rating;
 
     public Movie() {
     }
@@ -53,10 +53,10 @@ public class Movie {
     }
 
     public int getRating() {
-        return Rating;
+        return rating;
     }
 
     public void setRating(int rating) {
-        Rating = rating;
+        this.rating = rating;
     }
 }
